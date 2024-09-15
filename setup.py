@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 from setuptools import setup
-import versioneer
+# import versioneer
 
 
 DISTNAME = "empyrical"
@@ -76,7 +76,7 @@ extras_requirements = {
 if __name__ == "__main__":
     setup(
         name=DISTNAME,
-        cmdclass=versioneer.get_cmdclass(),
+        # cmdclass=versioneer.get_cmdclass(),
         # version=versioneer.get_version(),
         version="0.5.5",
         maintainer=MAINTAINER,
