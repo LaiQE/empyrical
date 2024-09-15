@@ -77,7 +77,8 @@ if __name__ == "__main__":
     setup(
         name=DISTNAME,
         cmdclass=versioneer.get_cmdclass(),
-        version=versioneer.get_version(),
+        # version=versioneer.get_version(),
+        version=0.5.5,
         maintainer=MAINTAINER,
         maintainer_email=MAINTAINER_EMAIL,
         description=DESCRIPTION,
